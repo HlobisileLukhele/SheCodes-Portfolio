@@ -1,0 +1,107 @@
+:root {
+    --contact-background: #f76b8a;
+    --about-background: #a7bcb9;
+    --button-font: #badddd;
+    --box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    --heading-font: #f76b8a;
+    --normal-text: #a7bcb9;
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-brand {
+    color: var(--normal-text);
+    font-family: "Courier New", Courier, monospace;
+  }
+  .content {
+    margin: 45px;
+    font-size: large;
+  }
+  h1 {
+    color: var(--heading-font);
+  }
+  h3,
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  h3 {
+    color: var(--normal-text);
+    font-size: 35px;
+  }
+  button {
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    margin: 5px;
+    box-shadow: var(--box-shadow);
+    font-size: 20px;
+  }
+  .button-links {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    text-decoration: none;
+    color: grey;
+  }
+  a:visited {
+    color: #000;
+  }
+  .contact {
+    background-color: var(--contact-background);
+    color: var(--button-font);
+  }
+  .about {
+    background-color: var(--about-background);
+    color: var(--contact-background);
+  }
+  .about-section {
+    text-align: center;
+  }
+  p {
+    font-size: 25px;
+  }
+  .me {
+    color: var(--normal-text);
+  }
+  .card-title {
+    font-size: 25px;
+    color: var(--primary-color);
+  }
+  .btn-primary {
+    background-color: var(--primary-color);
+    border: 1pt solid var(--primary-color);
+    box-sizing: border-box;
+    font-size: 25px;
+  }
+  .btn-primary:hover {
+    background-color: var(--secondary-color);
+    border: 1pt solid var(--primary-color);
+    color: var(--primary-color);
+    opacity: 3;
+    box-shadow: var(--box-shadow);
+    transition: all 2ms ease-in-out;
+  }
+  .card-text {
+    color: var(--normal-text);
+    font-family: sans-serif;
+  }
+  .contact-me {
+    margin-top: 25px;
+    text-align: center;
+  }
+  a {
+    font-size: 18px;
+    color: var(--normal-text);
+  }
+  
