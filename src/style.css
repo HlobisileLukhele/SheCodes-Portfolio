@@ -21,6 +21,10 @@
     color: var(--normal-text);
     font-family: "Courier New", Courier, monospace;
   }
+  .nav-link:hover {
+    color: var(--contact-background);
+    text-decoration: underline;
+  }
   .content {
     margin: 45px;
     font-size: large;
@@ -104,4 +108,9 @@
     font-size: 18px;
     color: var(--normal-text);
   }
-  
+  /*media queries */
+  @media (max-width: 400px) {
+    img {
+        display: none;
+    }
+  }
