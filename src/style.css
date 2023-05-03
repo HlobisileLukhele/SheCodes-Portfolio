@@ -117,4 +117,13 @@
     button {
         padding: 7px;
     }
+    h3 {
+        font-size: 25px;
+      }
+      h1{
+        font-size: 20px;
+      }
+      p {
+        font-size: 19px;
+      }
   }
